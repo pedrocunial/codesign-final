@@ -116,6 +116,41 @@
         $("#limpa5").replaceWith('<div class="btn-group uib-bs-flex widget uib_w_39 d-margins" data-uib="twitter%20bootstrap/button_group" data-ver="1" id="btn-group5"> <button class="btn widget uib_w_40 btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-sim5">Sim</button> <button class="btn widget uib_w_41 btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn-nao5">Não</button> </div>');   
     });
      
+
+        /* button  #btn-nao */
+    $(document).on("click", "#btn-nao", function(evt)
+    {
+        $('input[type="submit"].red').removeClass('red')
+            $(this).addClass('red');
+    });
+    
+     
+    $(document).on("click", "#btn-nao2", function(evt)
+    {
+        $('input[type="submit"].red').removeClass('red')
+            $(this).addClass('red');
+    });
+    
+    
+    $(document).on("click", "#btn-nao3", function(evt)
+    {
+        $('input[type="submit"].red').removeClass('red')
+            $(this).addClass('red');
+    }); 
+    
+     
+    $(document).on("click", "#btn-nao4", function(evt)
+    {
+        $('input[type="submit"].red').removeClass('red')
+            $(this).addClass('red');
+    });
+     
+    $(document).on("click", "#btn-nao5", function(evt)
+    {
+        $('input[type="submit"].red').removeClass('red')
+            $(this).addClass('red');
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
