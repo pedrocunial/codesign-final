@@ -10,11 +10,7 @@
     
     
      /* button  #botao-prox */
-    $(document).on("click", "#botao-prox", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#identificacao-dor"); 
-    });
+    
     
         /* button  #prox-pg2 */
     $(document).on("click", "#prox-pg2", function(evt)
@@ -54,6 +50,13 @@
             */
         
          $("#pop-final").modal("toggle");  
+    });
+    
+        /* button  #botao-prox */
+    $(document).on("click", "#botao-prox", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#identificacao-dor"); 
     });
     
     }
