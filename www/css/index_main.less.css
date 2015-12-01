@@ -747,3 +747,6 @@ label:empty {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
+.test {
+  font-weight: bold;
+}
